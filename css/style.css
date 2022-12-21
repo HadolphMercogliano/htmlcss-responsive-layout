@@ -24,13 +24,13 @@ body {
 }
 
 .card-big {
-    width: calc(100% / 3 * 2 - var(--gap));
+    width: calc(100% / 3 * 2 - 10px);
     background-color: aqua;
     padding-top: 2rem;
 }
 
 .card {
-    width: calc(100% / 3 - var(--gap));
+    width: calc(100% / 3 - 20px);
     background-color: red;
     padding: 0 1rem;
     padding-top: 2rem;
@@ -45,7 +45,7 @@ header {
 }
 
 .header {
-    padding: 0;
+    padding: 0 1rem;
     justify-content: space-between;
     align-items: center;
     height: 4rem;
@@ -82,13 +82,35 @@ header {
 }
 
 /* MAIN */
-.overview {
+#overview {
     padding-top: 4rem;
     /* debug  */
     background-color: antiquewhite;
     /* height: 600px; */
 }
 
+#planning {
+    background-color: var(--violet);
+    color: white;
+}
+
+.development div {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    align-self: flex-end;
+}
+
+.development img {
+    width: 50%;
+}
+
+.development button {
+    width: 30px;
+    aspect-ratio: 1;
+    border: 1px solid transparent;
+    background-color: var(--violet);
+}
 
 
 /* FOOTER */

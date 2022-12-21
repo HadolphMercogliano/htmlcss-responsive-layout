@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .container {
+    .container:not(.container.header) {
         flex-direction: column;
     }
 
@@ -32,4 +32,5 @@
     .container-small {
         flex-direction: column;
     }
+
 }
