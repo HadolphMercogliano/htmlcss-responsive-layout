@@ -9,6 +9,7 @@ body {
     background: white;
     display: block;
     width: fit-content;
+    border: 1px solid transparent;
 }
 
 .container {
@@ -89,15 +90,21 @@ header {
     /* height: 600px; */
 }
 
+/* planning */
 #planning {
     background-color: var(--violet);
     color: white;
 }
 
+/* development */
+.development {
+    padding: 0 2rem;
+}
+
 .development div {
     background-color: white;
     color: black;
-    padding: 1rem;
+    padding: 2rem;
     align-self: flex-end;
 }
 
@@ -112,6 +119,66 @@ header {
     background-color: var(--violet);
 }
 
+/* partners */
+.partners {
+    background-color: var(--violet);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.partners .profile {
+    width: 150px;
+}
+
+.partners .motto {
+    padding: 0.5rem 2rem;
+    line-height: 1.5rem;
+    color: white;
+    /* background-color: antiquewhite; */
+}
+
+.profile img {
+    object-fit: cover;
+    width: 150px;
+    aspect-ratio: 1;
+}
+
+/* benefit */
+#benefit {
+    background-color: var(--violet);
+}
+
+#benefit .btn {
+    color: white;
+    background-color: var(--violet);
+    padding: 0.4rem 2rem;
+    margin: 1rem 0;
+}
+
+#benefit .row {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#benefit .card {
+    width: calc(100% / 3 - 0.7rem);
+    background-color: white;
+}
+
+#benefit .big-numbers {
+    color: var(--violet);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#benefit h4 {
+    color: var(--violet);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
 
 /* FOOTER */
 footer {

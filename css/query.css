@@ -7,12 +7,17 @@
         display: block;
     }
 
-    .card-big {
+    .card-big,
+    .container-small {
         flex-direction: column;
     }
 
     .col-medium {
         width: 100%;
+    }
+
+    #benefit .card {
+        width: calc(100% / 2 - 1rem);
     }
 }
 
@@ -31,6 +36,15 @@
 
     .container-small {
         flex-direction: column;
+    }
+
+    .partners {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #benefit .card {
+        width: 100%;
     }
 
 }
