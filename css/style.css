@@ -1,12 +1,12 @@
-/* Variables */
-:root {
-    --primary: red;
-}
-
 /* Generics */
+
 
 /* HEADER */
 
 /* MAIN */
 
 /* FOOTER */
+footer {
+    background-color: var(--black);
+    padding: ;
+}

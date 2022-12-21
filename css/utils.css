@@ -1,7 +1,21 @@
 /* Utils */
 
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+
+.container-small {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.container-mini {
+	max-width: 850px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -16,6 +30,12 @@
 	display: flex;
 }
 
+/* VARIABLES */
 :root {
-	--paddings: 2px 10px;
+	--violet: #9792e2;
+	--black: #323232;
+	--lightblue: #b5dcfe;
+	--blue: #0e84fb;
+	--yellow: #fcc061;
+	--ps: 2px 10px;
 }
