@@ -1,0 +1,21 @@
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.d-flex {
+	display: flex;
+}
+
+:root {
+	--paddings: 2px 10px;
+}
