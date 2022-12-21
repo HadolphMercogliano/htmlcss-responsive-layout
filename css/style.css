@@ -1,12 +1,98 @@
 /* Generics */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.btn {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background: white;
+    display: block;
+    width: fit-content;
+}
+
+.container {
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.col-medium {
+    width: calc(100% / 2);
+    padding: 0 1rem;
+    /* debug */
+    /* height: 250px; */
+}
+
+.card-big {
+    width: calc(100% / 3 * 2 - var(--gap));
+    background-color: aqua;
+    padding-top: 2rem;
+}
+
+.card {
+    width: calc(100% / 3 - var(--gap));
+    background-color: red;
+    padding: 0 1rem;
+    padding-top: 2rem;
+}
 
 /* HEADER */
+header {
+    background-color: var(--blue);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.header {
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+#logo img {
+    height: 60%;
+    vertical-align: middle;
+}
+
+/* BURGER MENù */
+.header .menu {
+    display: none;
+}
+
+/* EXTENDED MENù */
+.link {
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    padding: 0 .5rem;
+}
+
+.link .btn {
+    color: black;
+}
+
+.link ul li {
+    display: inline-block;
+    cursor: pointer;
+}
 
 /* MAIN */
+.overview {
+    padding-top: 4rem;
+    /* debug  */
+    background-color: antiquewhite;
+    /* height: 600px; */
+}
+
+
 
 /* FOOTER */
 footer {
     background-color: var(--black);
-    padding: ;
+    /* padding: var(--ps); */
 }

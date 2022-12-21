@@ -1,3 +1,35 @@
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    .header .link {
+        display: none;
+    }
 
-@media screen and (max-width:480px) {}
+    .header .menu {
+        display: block;
+    }
+
+    .card-big {
+        flex-direction: column;
+    }
+
+    .col-medium {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card-big {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .container-small {
+        flex-direction: column;
+    }
+}
