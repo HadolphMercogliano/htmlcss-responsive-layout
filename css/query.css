@@ -30,6 +30,14 @@
         width: 100%;
     }
 
+    .col-big {
+        width: 100%;
+    }
+
+    .col-small {
+        width: 100%;
+    }
+
     .card {
         width: 100%;
     }
@@ -38,7 +46,7 @@
         flex-direction: column;
     }
 
-    .partners {
+    .testimonial {
         flex-direction: column;
         text-align: center;
     }
