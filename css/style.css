@@ -26,15 +26,17 @@ body {
 
 .card-big {
     width: calc(100% / 3 * 2 - 10px);
-    background-color: aqua;
+    background-color: var(--lightblue);
     padding-top: 2rem;
+    line-height: 1.5rem;
 }
 
 .card {
     width: calc(100% / 3 - 20px);
-    background-color: red;
+    background-color: var(--lightblue);
     padding: 0 1rem;
     padding-top: 2rem;
+    line-height: 1.5rem;
 }
 
 .col-big {
@@ -97,15 +99,46 @@ header {
 /* MAIN */
 #overview {
     padding-top: 4rem;
-    /* debug  */
-    background-color: antiquewhite;
-    /* height: 600px; */
+    margin-bottom: 2rem;
 }
 
-/* planning */
+#overview .btn {
+    background-color: var(--blue);
+    color: white;
+    padding: 5px 40px;
+}
+
+#overview h3 {
+    color: var(--blue);
+    padding: 1rem 0;
+}
+
+#overview p {
+    margin-bottom: 1rem;
+}
+
+#overview img {
+    margin-top: 2rem;
+}
+
+#overview .card>i {
+    color: var(--blue);
+    font-size: 5rem;
+}
+
+/* PLANNING */
 #planning {
     background-color: var(--violet);
     color: white;
+}
+
+#planning h3 {
+    margin-top: 4rem;
+}
+
+#planning p {
+    line-height: 1.4rem;
+    margin: 2rem 0;
 }
 
 /* development */
@@ -121,7 +154,7 @@ header {
 }
 
 .development img {
-    width: 50%;
+    width: 70%;
 }
 
 .development button {
@@ -129,6 +162,11 @@ header {
     aspect-ratio: 1;
     border: 1px solid transparent;
     background-color: var(--violet);
+}
+
+.development p {
+    font-style: italic;
+    margin: 1rem 0;
 }
 
 /* TESTIMONIAL */
@@ -147,6 +185,7 @@ header {
 .testimonial-head h2 {
     color: var(--violet);
     margin: 20px 0;
+    font-size: 1.8rem;
 }
 
 .testimonial .profile {
@@ -169,6 +208,12 @@ header {
 /* benefit */
 #benefit {
     background-color: var(--violet);
+}
+
+#benefit h2 {
+    color: white;
+    margin: 2rem 0;
+    font-size: 2rem;
 }
 
 #benefit .btn {
@@ -204,6 +249,7 @@ header {
 /* ABOUT US 5 */
 #about-us .col-big p {
     line-height: 2rem;
+    padding-right: 2rem;
 }
 
 #about-us h2 {

@@ -16,6 +16,11 @@
         width: 100%;
     }
 
+    #planning h3 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
     #benefit .card {
         width: calc(100% / 2 - 1rem);
     }
@@ -40,6 +45,14 @@
 
     .card {
         width: 100%;
+    }
+
+    #planning h3 {
+        font-size: 2rem;
+    }
+
+    #about-us .col-big p {
+        padding-right: 0;
     }
 
     .container-small {
