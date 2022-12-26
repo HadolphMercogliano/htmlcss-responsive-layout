@@ -70,6 +70,7 @@ header {
 /* BURGER MENù */
 .header .menu {
     display: none;
+    color: white;
 }
 
 /* EXTENDED MENù */
@@ -85,6 +86,7 @@ header {
 
 .link .btn {
     color: black;
+    padding: 5px 10px;
 }
 
 .link ul li {
